@@ -107,7 +107,10 @@ pygments_style = "sphinx"
 # documentation.
 #
 html_theme_options = {
-    "description": "Python package to measure the current internet speed and write it to a log file.",  # noqa: E501
+    "description": (
+        "Python package to measure the current internet speed and write it to a log "
+        "file."
+    ),
     "fixed_sidebar": "true",
     "github_user": "khelfen",
     "github_repo": "internet-speedtest-pi",
@@ -116,7 +119,10 @@ html_theme_options = {
     "github_type": "star",
     "font_family": "'Noto Serif KR', Georgia, 'Times New Roman', Times, serif",
     "head_font_family": "'Noto Serif KR', Georgia, 'Times New Roman', Times, serif",
-    "code_font_family": "'D2Coding', 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
+    "code_font_family": (
+        "'D2Coding', 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans "
+        "Mono', monospace"
+    ),
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

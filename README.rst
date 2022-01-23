@@ -16,11 +16,11 @@ internet-speedtest-pi
             :target: https://pypi.python.org/pypi/internet_speedtest_pi/
             :alt: PyPI Status
 
-    .. badges from below are commendted out
+    .. badges from below are commented out
 
     .. .. image:: https://img.shields.io/pypi/dm/internet_speedtest_pi.svg
             :target: https://pypi.python.org/pypi/internet_speedtest_pi/
-            :alt: PyPI Monthly Donwloads
+            :alt: PyPI Monthly Downloads
 
 .. container::
 
@@ -44,7 +44,7 @@ internet-speedtest-pi
             :alt: Requires.io Requirements Status
     .. .. image:: https://requires.io/github/khelfen/internet-speedtest-pi/requirements.svg?branch=master
 
-    .. badges from below are commendted out
+    .. badges from below are commented out
 
     .. .. image:: https://img.shields.io/travis/khelfen/internet-speedtest-pi.svg
             :target: https://travis-ci.com/khelfen/internet-speedtest-pi

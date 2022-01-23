@@ -12,9 +12,9 @@ with open("README.rst", encoding="utf-8") as readme_file:
 with open("HISTORY.rst", encoding="utf-8") as history_file:
     history = history_file.read()
 
-requirements: list[str] = []
+requirements: list[str] = ["loguru>=0.5.3", "dynaconf>=3.1.7", "speedtest-cli>=2.1.3"]
 
-requirements_dev = [
+requirements_dev: list[str] = [
     "black>=21.5b0",
     "codecov>=2.1.11",
     "coverage>=5.5",
@@ -28,7 +28,7 @@ requirements_dev = [
     "pytest-xdist>=2.2.1",
 ]
 
-requirements_docs = [
+requirements_docs: list[str] = [
     "Sphinx>=3.5.4",
     "sphinx-autoapi>=1.8.1",
 ]
@@ -60,7 +60,9 @@ setup(
     license="MIT",
     long_description=readme + "\n\n" + history,
     name="internet_speedtest_pi",
-    packages=find_packages(include=["internet_speedtest_pi", "internet_speedtest_pi.*"]),
+    packages=find_packages(
+        include=["internet_speedtest_pi", "internet_speedtest_pi.*"]
+    ),
     include_package_data=True,
     test_suite="tests",
     url="https://github.com/khelfen/internet-speedtest-pi",

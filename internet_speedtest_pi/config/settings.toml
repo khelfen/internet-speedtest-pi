@@ -1,0 +1,6 @@
+# logger setting
+[logging]
+file = "internet_speedtest_pi.log"
+
+[data_logging]
+file = "results/internet_speedtest_pi_data.csv"
