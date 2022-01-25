@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
-PWD=$(pwd)
+# cd into repo dir
+cd /home/<USER>/<PATH>/<TO>/internet-speedtest-pi
 
-cd "${PWD}"
+# activate virtualenv per source
+source /home/<USER>/.cache/pypoetry/virtualenvs/<VENV>/bin/activate
 
-source "$( poetry env list --full-path | grep internet-speedtest-pi | cut -d' ' -f1 )/bin/activate"
-
-poetry run python run_speedtest.py
-
+# run python script
+python run_speedtest.py
